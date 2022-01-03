@@ -1,0 +1,104 @@
+
+html, body, * {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+html, body {
+    height: 100%;
+    text-align: center;
+}
+body {
+    padding: 2rem;
+    background: #f8f8f8;
+}
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 26px;
+    line-height: 1.5;
+    color: #454cad;
+    margin-bottom: 0;
+}
+p {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: #5f6982;
+}
+.uploader {
+    display: block;
+    clear: both;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+}
+
+.uploader div {
+    margin: 0 0 0.5rem 0;
+    color: #5f6982;
+}
+.uploader .btn, a {
+    display: inline-block;
+    margin: 0.5rem 0.5rem 1rem 0.5rem;
+    clear: both;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: initial;
+    border: none;
+    border-radius: 0.2rem;
+    outline: none;
+    padding: 0 1rem;
+    height: 36px;
+    line-height: 36px;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+    box-sizing: border-box;
+    background: #454cad;
+    border-color: #454cad;
+    cursor: pointer;
+}
+
+figure {
+    display: inline-block;
+    border: 1px dotted gray;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    padding: 0.5em;
+    margin: 20px; /* adjust as needed */
+}
+
+#left_image {
+    float: right;
+}
+
+#right_image {
+    float: left;
+}
+
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    border: 1px dotted blue;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+}
+
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
