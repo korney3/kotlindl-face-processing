@@ -2,7 +2,7 @@
 
 ![](readme_images/frontendimage1.png)
 
-Repo contains source code of application for prediction gender and age of person in the image and for face landmarks detection. Rhe upload images are stored and can be downloaded with detected landmarks.
+Repo contains source code of application for prediction gender and age of person in the image and for face landmarks detection. The uploaded images are stored and can be downloaded with detected landmarks.
 
 ## Installation
 
